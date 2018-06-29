@@ -5,11 +5,6 @@ import './List.css';
 
 class List extends Component{
 
-    static propTypes = {
-        contacts: PropTypes.array.isRequired,
-    };
-
-
     render(){
         return(
             <div className={"listArea"}>
